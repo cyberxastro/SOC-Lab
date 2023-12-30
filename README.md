@@ -1,7 +1,7 @@
 # Linkedin
 [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/gauravss03/)
 # Portfolio 
-[![](https://skillicons.dev/icons?i=gamemakerstudio)](https://www.linkedin.com/in/gauravss03/)
+[![](https://skillicons.dev/icons?i=gamemakerstudio)](https://gauravsuryawanshi.pages.dev/)
 
 # Building a Virtual Security Operation Center Lab
 
