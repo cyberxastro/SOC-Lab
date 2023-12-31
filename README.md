@@ -22,6 +22,7 @@ LimaCharlie is a SecOps Cloud Platform. LimaCharlie comes with a cross-platform 
 ![1_q60fJrWV-YzLuWYKvyLvcg](https://github.com/astroxhacker/SOC-Lab/assets/109857735/8cf14d98-65b7-4638-aba5-93e9b83c2fb2)
 
 In the context of this project, the process of creating a Command and Control (C2) payload using Sliver involves several key steps. Initially, Sliver is configured with specific parameters to tailor the payload for the targeted system, ensuring compatibility with the Windows VM and the Ubuntu Server. Once configured, Sliver generates the malicious payload, embedding it with functionalities designed to establish a covert communication channel between the compromised Windows VM and the Ubuntu Server. This payload enables the operator to gain unauthorized access, explore system privileges, and locate critical information within the Command and Control session. It is crucial to execute this process ethically and responsibly within the confines of the lab environment, with the primary objective being educational insight into offensive cybersecurity techniques and subsequent defensive measures using tools like LimaCharlie for detection.
+
 TO KNOW IN DETAIL, VISIT THE MEDIUM PAGE [HERE](https://medium.com/@gauravss3703/security-operation-center-lab-a18eeba5c3c2)
 
 # Observing the EDR Telementry
@@ -55,6 +56,7 @@ We can see the rule worked and was detected.
 Now let’s work on blocking an attack. In order to to do this we would normally want to properly baseline the environment for false positives in order to prevent issues.
 
 We will be attempting to block Volume Shadow Copies. Volume Shadow Copies are used to restore individual files or even an entire file system to a previous state. This is a very popular option for recovering from a ransomware attack, the also being a reason a ransomware attack would want to delete the shadow copies.
+
 TO KNOW IN DETAIL, VISIT THE MEDIUM PAGE [HERE](https://medium.com/@gauravss3703/security-operation-center-lab-a18eeba5c3c2)
 
 # Conclusion
